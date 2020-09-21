@@ -10,7 +10,7 @@ import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http
 
 export class ApiService {
 
-  endpoint: string = 'http://35.193.218.211:80/api/';
+  endpoint: string = 'http://34.66.112.114/api/';
   headers = new HttpHeaders().set('Content-Type', 'application/json');
 
   constructor(private http: HttpClient) { }
